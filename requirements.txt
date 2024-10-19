@@ -1,0 +1,12 @@
+pyrogram
+tgcrypto
+asyncio
+python-decouple
+python-dotenv
+httpx
+uuid
+loguru
+tenacity
+aiosqlite
+aiofiles
+tqdm
