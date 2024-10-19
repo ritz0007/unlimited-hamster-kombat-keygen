@@ -24,25 +24,22 @@ XiBots is a Telegram bot designed to generate and manage keys using the Pyrogram
 2. Install Dependencies
 
 Ensure you have Python 3.7+ installed. Then, install the required Python packages:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 3. Environment Configuration
 
 Create a .env file in the root directory and add your Telegram bot credentials:
+```env
 BOT_TOKEN=your_bot_token
 API_ID=your_api_id
-API_HASH=your_api_hash
+API_HASH=your_api_hash```
 
 
 Usage
 1. Run the Bot
 
 Start the bot using the following command:
-python main.py
-
-2. Stopping the Bot
-
-You can stop the bot gracefully by sending a keyboard interrupt (Ctrl+C).
+`python main.py`
 
 
 Project Structure:
