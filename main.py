@@ -23,18 +23,6 @@ def create_bot():
         plugins=dict(root="plugins"),
     )
 
-def get_peer_type(peer_id: int) -> str:
-    print('get_peer_type call')
-    peer_id_str = str(peer_id)
-    if not peer_id_str.startswith("-"):
-        return "user"
-    elif peer_id_str.startswith("-100"):
-        return "channel"
-    else:
-        return "chat"
-
-utils.get_peer_type = get_peer_type
-
 
 async def run_bot(bot):
     await bot.start()
