@@ -18,8 +18,8 @@ XiBots is a Telegram bot designed to generate and manage keys using the Pyrogram
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/XiBots.git
-   cd XiBots
+   git clone ritz0007/unlimited-hamster-kombat-keygen.git
+   cd unlimited-hamster-kombat-keygen
 
 2. Install Dependencies
 
