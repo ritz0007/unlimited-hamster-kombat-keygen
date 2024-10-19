@@ -29,10 +29,10 @@ Ensure you have Python 3.7+ installed. Then, install the required Python package
 3. Environment Configuration
 
 Create a .env file in the root directory and add your Telegram bot credentials:
-```env
-BOT_TOKEN=your_bot_token
+
+`BOT_TOKEN=your_bot_token
 API_ID=your_api_id
-API_HASH=your_api_hash```
+API_HASH=your_api_hash`
 
 
 Usage
